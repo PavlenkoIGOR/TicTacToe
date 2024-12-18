@@ -11,7 +11,7 @@ namespace TicTacToe.Config
         //internal sbyte[] cellNumbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         internal Dictionary<string, int[]> cellNumbers = new Dictionary<string, int[]>();
         Font _font = new Font("C:\\Windows\\Fonts\\arial.ttf");
-        public CellNumbers()
+        internal CellNumbers()
         {
             cellNumbers.Add("9", [300 * 2 + 26 + 300 / 2, 300 / 2]);
             cellNumbers.Add("8", [300 + 13 + 300 / 2, 300 / 2]);
